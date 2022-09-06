@@ -1,0 +1,90 @@
+html body {
+    background: #F4FFFF;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    padding: 2vw 0px 2vw 2vw;
+    width: 98%;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+content {
+    float:left;
+    width: 10%;
+    height: 75vh;
+    margin-top: 30px;
+    background-color: #F4F3F3;
+}
+.table-container {
+    width: 90%;
+    height: 75vh;
+    float: left;
+    margin-left: 7vh;
+    
+}
+
+.table-container h1 {
+
+    margin-top:7vh;
+    font-size:x-large;
+    background-color: #C4C4C4;
+    text-align: center;
+
+}
+.table-container table {
+    width: 100%;
+    background-color: #D7F5F6;
+    border-collapse:collapse;
+    text-align: center;
+    
+}    
+.table-container table tr {
+    height: 5vh;
+    padding: 0px;
+    
+     
+}
+.table-container table tr th {
+    
+    background-color: #C4C4C4;
+    padding: 0px 3px 0px 3px;
+       
+    }
+    
+.table-container table tr th + th {
+    border-left: 1px solid #000000;
+ 
+}
+.table-container table tr th {
+    padding: 0px 3px 0px 3px;
+}
+
+.table-container table tr td + td {
+    border-left: 1px solid #000000;
+   
+    }
+    nav {
+        float: left;
+        width: 90%;
+        height: 75%;
+        padding-bottom: 10px;
+        margin-left:6vw;
+        background-color: #C4C4C4;
+       
+    }
+    
+    nav a {
+        float: left;
+        width: 25%;
+        padding: 9px;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        color: white;
+        background-color: #3F3C3C;
+        text-align: center;
+        
+    
+    }
+    
